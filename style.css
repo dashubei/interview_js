@@ -1,0 +1,30 @@
+.tab {
+  width: 100%;
+}
+
+.tab-nav {
+  display: flex;
+}
+
+.tab-nav-item {
+  background: #ccc;
+  margin-right: 2px;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-nav-item.is-active {
+  background: #087c00;
+  color: #fff;
+}
+
+.tab-contents {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.tab-contents-item {
+  display: none;
+}
